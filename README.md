@@ -1,13 +1,27 @@
 # **Seattle Airbnb Data Analysis & Tableau Dashboard**
 
-An end-to-end data visualization project exploring Airbnb listing prices, revenue trends, and spatial distribution across Seattle using Tableau Public.
+An end-to-end data analytics project exploring Airbnb listing prices, spatial distribution, bedroom supply, and revenue seasonality across Seattle. This project combines data processing in Google Sheets with interactive visual analytics in Tableau Public.
 
-**[View Live Interactive Tableau Dashboard](https://public.tableau.com/views/fullproject_17881553465990/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+_**Project Links:**_
 
+- **[Google Sheets Data Processing](https://docs.google.com/spreadsheets/d/1RpL9e9Sbf0yFHJwcYCS00o_C8AWtWxPi/edit?usp=sharing&ouid=114390769350717534247&rtpof=true&sd=true)**
+- **[View Live Interactive Tableau Dashboard](https://public.tableau.com/views/fullproject_17881553465990/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+
+
+_**Data Pipeline & Workflow**_
+
+1. **Data Cleaning & Preparation :**
+   - Cleaned raw listing records and calendar booking datasets.
+   - Formatted currency values, addressed missing values, and created aggregated summary fields for downstream modeling.
+   - Access the working calculations and cleaned tables via the [Google Sheets Spreadsheet](https://docs.google.com/spreadsheets/d/1RpL9e9Sbf0yFHJwcYCS00o_C8AWtWxPi/edit?usp=sharing&ouid=114390769350717534247&rtpof=true&sd=true).
+
+2. **Visual Analytics & Dashboarding :**
+   - Connected processed data to Tableau to build interactive map layers, dynamic bar charts, and trend lines[cite: 3].
 
 _**Project Overview**_
 
-This project analyzes the Seattle Airbnb market to identify pricing dynamics, listing distribution, and revenue seasonality. By breaking down listings by bedroom counts and zipcodes, property owners and real estate investors can make data-driven decisions on listing strategies and location investments[cite: 3].
+The goal of this project is to provide actionable market insights for real estate investors and Airbnb hosts looking to optimize their pricing strategies and property locations in Seattle.
+By preparing raw calendar and listing data in Google Sheets and visualizing it through an interactive Tableau dashboard, the analysis highlights key drivers of rental revenue, spatial pricing variations, and seasonal demand[cite: 3].
 
 
 _**Key Dashboard Features & Insights**_
@@ -36,18 +50,11 @@ _**Key Dashboard Features & Insights**_
 - Shows a sharp rise in revenue starting from February through the spring and summer peak months, stabilizing towards the end of the year[cite: 3].
 
 
-_**Tools & Technologies**_
-
-- **BI / Visualization:** Tableau Public[cite: 3]
-- **Data Processing:** SQL / Excel (Data Cleaning & Aggregation)[cite: 1, 2]
-- **Geospatial Mapping:** OpenStreetMap / Mapbox integration in Tableau[cite: 3]
-
-
 _**Repository Structure**_
 ```text
 ├── data/
-│   ├── raw_airbnb_listings.csv     # Raw dataset
-│   └── cleaned_airbnb_data.csv     # Processed dataset
+│   └── raw_airbnb_data.csv          # Raw input dataset
 ├── Tableau/
-│   └── Seattle_Airbnb_Dashboard.twbx  # Tableau Packaged Workbook
-└── README.md                       # Project documentation
+│   └── Seattle_Airbnb_Dashboard.twbx # Tableau Packaged Workbook
+├── LINKS.md                         # Direct links to external resources
+└── README.md                        # Project documentation
