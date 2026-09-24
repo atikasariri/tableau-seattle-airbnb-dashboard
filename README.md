@@ -2,6 +2,13 @@
 
 An end-to-end data analytics project exploring Airbnb listing prices, spatial distribution, bedroom supply, and revenue seasonality across Seattle. This project combines data processing in Google Sheets with interactive visual analytics in Tableau Public.
 
+_**Preview Dashboard**_
+
+<p align="center">
+<img width="1366" height="636" alt="Dashboard preview" src="https://github.com/user-attachments/assets/5d251b75-7c6a-4b06-94a0-311a6796f590" width="800">
+</p>
+
+
 _**Project Links:**_
 
 - **[Google Sheets Data Processing](https://docs.google.com/spreadsheets/d/1RpL9e9Sbf0yFHJwcYCS00o_C8AWtWxPi/edit?usp=sharing&ouid=114390769350717534247&rtpof=true&sd=true)**
