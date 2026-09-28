@@ -5,7 +5,7 @@ An end-to-end data analytics project exploring Airbnb listing prices, spatial di
 _**Preview Dashboard**_
 
 <p align="center">
-<img width="1366" height="636" alt="Dashboard preview" src="https://github.com/user-attachments/assets/5d251b75-7c6a-4b06-94a0-311a6796f590" width="800">
+<img width="794" height="369" alt="Dashboard preview" src="https://github.com/user-attachments/assets/2ce32749-dbea-4c1b-8767-6edaef0397ae" width="800">
 </p>
 
 
