@@ -59,9 +59,13 @@ _**Key Dashboard Features & Insights**_
 
 _**Repository Structure**_
 ```text
+├── assets/
+│   ├── Dashboard preview.PNG
+│   └── Dashboard preview.gif
 ├── data/
-│   └── raw_airbnb_data.csv          # Raw input dataset
-├── Tableau/
-│   └── Seattle_Airbnb_Dashboard.twbx # Tableau Packaged Workbook
-├── LINKS.md                         # Direct links to external resources
-└── README.md                        # Project documentation
+│   └── AirBnB Tableau Project.xlsx
+├── tableau/
+│   └── AirBnB full project.twbx
+├── .gitignore
+├── LICENSE
+└── README.md
