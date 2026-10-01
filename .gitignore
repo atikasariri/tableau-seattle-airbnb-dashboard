@@ -1,0 +1,19 @@
+# Temporary Excel files
+~$*.xlsx
+~$*.xls
+
+# Tableau temporary & log files
+*.twb.Files/
+Logs/
+Shapes/
+Preferences.tps
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor settings
+.vscode/
+.idea/
